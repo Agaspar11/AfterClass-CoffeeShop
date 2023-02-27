@@ -312,5 +312,27 @@ span {
 .adrian {
     margin-left: 400px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: larger;
+    font-size: large;
+}
+
+/* Seventh page */
+
+.seventh {
+    height: 50vh;
+}
+
+.visit {
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Footer */
+footer {
+    height: 60vh;
+    background-color: #000000;
+}
+
+.about {
+    
 }
