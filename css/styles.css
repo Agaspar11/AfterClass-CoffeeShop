@@ -161,7 +161,7 @@ span {
 /* Third page */
 
 .third {
-    height: 100vh;
+    height: 80vh;
     background-color: aquamarine;
 }
 
@@ -211,4 +211,22 @@ span {
     max-width: 200px;
     height: 200px;
     object-fit: cover;
+}
+
+/* Fouth page */
+
+.fourth {
+    height: 80vh;
+    background-color: blue;
+}
+
+.our {
+    text-align: center;
+}
+
+.gallery2 img {
+    
+    padding-left: 2%;
+    height: 350px;
+    width: 400px;
 }
