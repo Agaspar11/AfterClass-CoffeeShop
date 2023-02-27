@@ -114,14 +114,46 @@ span {
 }
 
 .img2 {
+    float: left;
     position: absolute;
-    width: 250px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
     left: 345px;
-    margin-top: 50px;
 }
 
 .supportd {
-    padding-top: 69px;
-padding-left: 117px;
+    padding-top: 30px;
+    padding-left: 117px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.always {
+    position: relative;
+    margin-left: 32%;
+}
+
+.img3 {
+    float: right;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    right: 345px;
+}
+
+.supportd2 {
+    position: relative;
+    float: right;
+    padding-right: 700px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.great {
+    margin-top: 180px;
+}
+
+.relax {
+    float: right;
+    margin-top: 30px;
 }
