@@ -3,7 +3,11 @@
     background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)), url('https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center;
-    top: 0;
+/* 
+    height: 100vh;
+    background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)), url('https://github.com/KodeGo-Bootcamp/HTML-Activity-Images/blob/main/pexels-royal-anwar-450214.jpg?raw=true');
+    background-size: cover;
+    background-position: center; */
 }
 
 .header__image{
@@ -104,13 +108,20 @@ span {
 /* Second page */
 
 .second {
-    height: 100vh;
+    height: 80vh;
+    margin-top: 323px;
+    background-color: aquamarine;
 }
 
 .img2 {
     position: absolute;
     width: 250px;
-    height: 300px;
+    height: 350px;
     left: 345px;
-    top: 105px;
+    margin-top: 50px;
+}
+
+.supportd {
+    padding-top: 69px;
+padding-left: 117px;
 }
