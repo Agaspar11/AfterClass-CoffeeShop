@@ -19,7 +19,7 @@ nav {
 
 .logo {
     padding-top: 10px;
-    padding-left: 45.5%;
+    text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', serif;
     font-size: 40px;
@@ -66,7 +66,7 @@ nav {
     margin-top: 16%;
     font-family: 'Bebas Neue', sans-serif;
     color: white;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .after{
@@ -94,7 +94,6 @@ span {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
     font-family: 'Bebas Neue', sans-serif;
 	font-size:16px;
 	padding:16px 31px;
@@ -106,4 +105,12 @@ span {
 
 .second {
     height: 100vh;
+}
+
+.img2 {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 345px;
+    top: 105px;
 }
