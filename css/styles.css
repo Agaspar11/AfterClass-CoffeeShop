@@ -24,7 +24,7 @@ nav {
 .logo {
     padding-top: 10px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
 }
@@ -167,7 +167,7 @@ span {
 
 .menu {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .menuop {
@@ -192,4 +192,23 @@ span {
     font-family: 'Bebas Neue', sans-serif;
     float: left;
     margin-left: 8px;
+}
+
+.gallery {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
