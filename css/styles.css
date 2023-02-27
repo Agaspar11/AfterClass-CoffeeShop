@@ -1,0 +1,109 @@
+.header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)), url('https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    top: 0;
+}
+
+.header__image{
+    display: none;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+} 
+
+.logo {
+    padding-top: 10px;
+    padding-left: 45.5%;
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.nav-links {
+    margin-top: 30px;
+    list-style-type: none;
+    display: block;
+}
+
+.nav-links2 {
+    margin-top: 30px;
+    list-style-type: none;
+    display: block;
+}
+
+.nav-links-1, .nav-links-2, .nav-links-3 {
+    font-size: 16px;
+    margin-left: 5%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.nav-links2-1, .nav-links2-2, .nav-links2-3 {
+    font-size: 16px;
+    margin-right: 5%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+
+.nav-links li {
+    float: left;
+}
+
+.nav-links2 li {
+    float: right;
+}
+
+.cafe {
+    text-align: center;
+    margin-bottom: -12px;
+    margin-top: 16%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.after{
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+span {
+    color: #EFEA6B;
+}
+
+.classmate {
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+}
+
+.reserve {
+	background-color:transparent;
+	border:1px solid #EFEA6B;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    font-family: 'Bebas Neue', sans-serif;
+	font-size:16px;
+	padding:16px 31px;
+	text-decoration:none;
+    margin-left: 44%;
+}
+
+/* Second page */
+
+.second {
+    height: 100vh;
+}
