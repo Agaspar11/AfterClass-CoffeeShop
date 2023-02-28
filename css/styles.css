@@ -161,8 +161,7 @@ span {
 /* Third page */
 
 .third {
-    height: 80vh;
-    background-color: aquamarine;
+    height: 100vh;
 }
 
 .menu {
@@ -195,13 +194,7 @@ span {
 }
 
 .gallery {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 10px;
-    max-width: 1400px;
+    max-width: 900px;
     margin: 0 auto;
     gap: 16px;
 }
@@ -213,28 +206,42 @@ span {
     object-fit: cover;
 }
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 500px;
+    grid-row-gap: 20px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 3; }
+    .div5 { grid-area: 3 / 1 / 4 / 2; }
+    .div6 { grid-area: 3 / 2 / 4 / 3; }
+
 /* Fouth page */
 
 .fourth {
-    height: 80vh;
-    background-color: blue;
+    height: 100vh;
 }
 
 .our {
     text-align: center;
 }
 
-.gallery2 img {
+/* .gallery2 img {
     
     padding-left: 2%;
     height: 350px;
     width: 400px;
-}
+} */
 
 /* Fifth page */
 
 .fifth {
-    height: 80vh;
+    height: 100vh;
 }
 
 .make {
@@ -279,8 +286,7 @@ span {
 
 .sixth {
     font-size: large;
-    height: 50vh;
-    background-color: aqua;
+    height: 80vh;
 }
 
 .what {
@@ -292,17 +298,17 @@ span {
     text-align: center;
 }
 
+.img4 {
+    left: 1110.5px;
+}
+
 .person {
     width: 300px;
     height: 250px;
     border-radius: 100%;
-    float: right;
-    margin-right: 500px;
-    margin-top: 22px;
 }
 
 .rate {
-    margin-left: 350px;
     margin-top: 0px;
     padding-top: 80px;
     font-family: 'Roboto Condensed', sans-serif;
