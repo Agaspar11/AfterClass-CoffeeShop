@@ -3,53 +3,39 @@
     background-image: linear-gradient(rgba(21, 21, 21, 0.48), rgba(26, 26, 26, 0.48)), url('https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center;
-/* 
-    height: 100vh;
-    background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)), url('https://github.com/KodeGo-Bootcamp/HTML-Activity-Images/blob/main/pexels-royal-anwar-450214.jpg?raw=true');
-    background-size: cover;
-    background-position: center; */
 }
-
-body {
-    width: 100%;
-    min-height: 100vh;
-}
-
-.logo {
-    text-align: center;
-} 
 
 nav {
+    background-color: rgba(0,0,0,0.692);
     font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
     position: fixed;
     top: 0; 
     width: 100%;
-    padding-bottom: 28px;
-} 
+    padding: 25px;
+}
 
 .nav-color {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .nav-links {
-    margin-top: 30px;
+    margin: 0;
     list-style-type: none;
 }
 
 .nav-links2 {
-    margin-top: 30px;
+    margin: 0;
     list-style-type: none;
 }
 
 .nav-links-1, .nav-links-2, .nav-links-3 {
     font-size: 20px;
-    margin-left: 5%;
+    margin-left: 6%;
 }
 
 .nav-links2-1, .nav-links2-2, .nav-links2-3 {
     font-size: 20px;
-    margin-right: 5%;
+    margin-right: 6%;
 }
 
 
@@ -66,14 +52,15 @@ main {
 }
 
 .cafe {
-    margin-bottom: -12px;
-    margin-top: 16%;
+    padding-top: 18%;
     font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 16px;
+    margin-bottom: -0.5rem;
 }
 
 .after{
+    font-weight: 600;
     font-size: 70px;
     text-align: center;
     color: white;
@@ -86,7 +73,6 @@ span {
 
 .classmate {
     color: white;
-    margin-top: -10px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 18px;
 }
@@ -105,7 +91,6 @@ span {
 
 .second {
     height: 120vh;
-    background-color: rgb(247, 247, 247);
 }
 
 .image-text-container {
@@ -157,7 +142,6 @@ span {
 
 .third {
     height: 130vh;
-    background-image: linear-gradient( white, rgb(237, 237, 237));
 }
 
 .menu {
@@ -166,66 +150,61 @@ span {
 }
 
 .menuop {
+    font-weight: 600;
+    font-size: 40px;
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.gallery {
+.parent {
+    text-align: left;
+  }
+  
+  .row {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-}
-
-.itemt {
-    margin: 30px;
-}
-
-.third-img {
-    width: 150px;
-    height: 150px;
-}
-
-.text {
-    font-family: 'Playfair Display', serif;
-    text-align: left;
-    margin-top: 10px;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-/* Fouth page */
-
-.fourth {
-    height: 80vh;
-    background-image: linear-gradient(rgb(237, 237, 237), white);
-}
-
-.our {
-    text-align: center;
-}
-
-.container {
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-}
-
-.itemt {
+    margin: 5px;
+  }
+  
+  .column {
+    max-width: 700px;
     margin: 10px;
-}
+  }
+  
+  img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: border 250ms ease-out, border-radius 250ms ease-out;
+  }
 
-.third-img {
-    width: 400px;
-    height: 300px;
-}
-
+  .image-container:hover {
+    border: 10px solid rgba(0, 0, 0, 1);
+   border-radius: 0px;
+  }
+  
+  .text-container {
+    margin-left: 20px;
+  }
+  
+ .text-container h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 18px;
+  }
 
 /* Fifth page */
 
 .fifth {
     height: 100vh;
-    background-image: linear-gradient( white, rgb(237, 237, 237));
 }
 
 .make {
@@ -260,18 +239,33 @@ button{
 
 /* Sixt page */
 
+.sixth {
+    height: 80vh;
+}
+
+.client {
+    text-align: center;
+}
 
 
 /* Seventh page */
 
 .seventh {
-    height: 74vh;
+    height: 73vh;
 }
 
 /* Footer */
- .footer {
-    height: 20vh;
+ footer {
+    height: 30vh;
+    background-color: black;
+    color: white;
+    height: auto;
 }
+
+.text-warning {
+    padding: 5%;
+}
+
  .credits {
     margin-left: 16%;
  }
