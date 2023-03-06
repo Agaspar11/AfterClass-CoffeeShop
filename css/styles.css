@@ -21,7 +21,6 @@ body {
 
 nav {
     font-family: 'Bebas Neue', sans-serif;
-    color: white;
     text-align: center;
     position: fixed;
     top: 0; 
@@ -106,7 +105,7 @@ span {
 
 .second {
     height: 120vh;
-    background-image: linear-gradient(rgb(237, 237, 237), white);
+    background-color: rgb(247, 247, 247);
 }
 
 .image-text-container {
@@ -242,6 +241,7 @@ span {
 }
 
 .formsec {
+    font-family: 'Playfair Display', serif;
     margin:0 auto;
     width: 500px;
 }
@@ -257,6 +257,11 @@ input, button  {
 button{
     border-radius: 20px;
 }
+
+/* Sixt page */
+
+
+
 /* Seventh page */
 
 .seventh {
@@ -265,7 +270,7 @@ button{
 
 /* Footer */
  .footer {
-    height: 30vh;
+    height: 20vh;
 }
  .credits {
     margin-left: 16%;
