@@ -11,7 +11,7 @@ nav {
     position: fixed;
     top: 0; 
     width: 100%;
-    padding: 25px;
+    padding: 15px;
 }
 
 .nav-color {
@@ -29,12 +29,12 @@ nav {
 }
 
 .nav-links-1, .nav-links-2, .nav-links-3 {
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 6%;
 }
 
 .nav-links2-1, .nav-links2-2, .nav-links2-3 {
-    font-size: 20px;
+    font-size: 16px;
     margin-right: 6%;
 }
 
@@ -90,7 +90,7 @@ span {
 /* Second page */
 
 .second {
-    height: 120vh;
+    height: 135vh;
 }
 
 .image-text-container {
@@ -168,11 +168,11 @@ span {
   
   .column {
     max-width: 700px;
-    margin: 10px;
+    margin: 5px;
   }
   
   img {
-    width: 300px;
+    width: 200px;
     height: 200px;
   }
   
@@ -226,10 +226,10 @@ span {
 }
 
 input, button  {
-    font-size: 20px;
-    padding: 1.5rem 1.5rem;
+    font-size: 18px;
+    padding: 1rem 1rem;
     width: 500px;
-    margin: 10px;
+    margin: 5px;
     display: block;
    } 
 
@@ -251,7 +251,7 @@ button{
 /* Seventh page */
 
 .seventh {
-    height: 73vh;
+    height: 85vh;
 }
 
 /* Footer */
