@@ -15,45 +15,42 @@ body {
     min-height: 100vh;
 }
 
+.logo {
+    text-align: center;
+} 
+
 nav {
-    overflow: hidden;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-align: center;
     position: fixed;
     top: 0; 
     width: 100%;
+    padding-bottom: 28px;
 } 
 
-.logo {
-    padding-top: 10px;
-    text-align: center;
+.nav-color {
     color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
 }
 
 .nav-links {
     margin-top: 30px;
     list-style-type: none;
-    display: block;
 }
 
 .nav-links2 {
     margin-top: 30px;
     list-style-type: none;
-    display: block;
 }
 
 .nav-links-1, .nav-links-2, .nav-links-3 {
-    font-size: 16px;
+    font-size: 20px;
     margin-left: 5%;
-    font-family: 'Bebas Neue', sans-serif;
-    color: white;
 }
 
 .nav-links2-1, .nav-links2-2, .nav-links2-3 {
-    font-size: 16px;
+    font-size: 20px;
     margin-right: 5%;
-    font-family: 'Bebas Neue', sans-serif;
-    color: white;
 }
 
 
@@ -65,8 +62,11 @@ nav {
     float: right;
 }
 
-.cafe {
+main {
     text-align: center;
+}
+
+.cafe {
     margin-bottom: -12px;
     margin-top: 16%;
     font-family: 'Bebas Neue', sans-serif;
@@ -87,7 +87,6 @@ span {
 
 .classmate {
     color: white;
-    text-align: center;
     margin-top: -10px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 18px;
@@ -101,7 +100,6 @@ span {
 	font-size:16px;
 	padding:16px 31px;
 	text-decoration:none;
-    margin-left: 44%;
 }
 
 /* Second page */
@@ -209,7 +207,7 @@ span {
 
 .container {
     display: flex;
-    
+
     align-items: center;
     justify-content: center;
 }
