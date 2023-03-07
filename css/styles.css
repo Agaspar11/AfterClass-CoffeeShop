@@ -52,7 +52,7 @@ main {
 }
 
 .cafe {
-    padding-top: 18%;
+    padding-top: 30%;
     font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 16px;
@@ -358,3 +358,153 @@ button{
     margin-left: 16%;
  }
 
+ /* @media (min-width: 600px) {
+
+    .make {
+        margin-top: 50%;
+    }
+    
+    input, button  {
+        width: 490px;
+       } 
+
+    .second {
+        height: 135vh;
+    }
+
+       .fifth {
+        height: 70vh;
+       }
+
+    .sixth {
+        height: 130vh;
+    }
+
+    .seventh {
+        height: 65vh;
+    }
+
+    .testemonial {
+        margin-left: 8%;
+    }
+ } */
+
+/* @media (min-width: 768px) {
+
+    .cafe {
+        padding-top: 40%;
+    }
+
+    .nav-links {
+        padding-left: 0px;
+    }
+
+    .nav-links2 {
+        padding-left: 0px;
+    }
+
+    .make {
+        margin-top: 90px;
+    }
+
+    .second {
+        height: 100vh;
+    }
+
+    .third {
+        height: 120vh;
+    }
+
+    .make {
+        margin-top: 20px;
+    }
+
+    .fifth {
+        height: 70vh;
+    } 
+
+    .sixth {
+        height: 130vh;
+    }
+
+    .testemonial {
+        margin-left: 135px;
+    }
+
+    .seventh {
+        height: 65vh;
+    }
+ }  */
+/* 
+ @media (max-width: 992px) {
+
+    .cafe {
+        padding-top: 40%;
+    }
+
+   .make {
+    margin-top: 100px;
+    }
+
+    .second {
+        height: 100vh;
+    }
+
+    .fifth {
+        height: 60vh;
+    }
+
+    .sixth {
+        height: 130vh;
+        margin-top: 75px;
+    }
+
+    .testemonial {
+        margin-left: 250px;
+    }
+
+    .seventh {
+        height: 65vh;
+    }
+ } */
+
+ @media (max-width: 1920px) { 
+
+    .cafe {
+        padding-top: 18%;
+    }
+
+    .third {
+        height: 75vh;
+    }
+
+    .fifth {
+        height: 70vh;
+    }
+
+    .sixth {
+        height: 60vh;
+    }
+    
+    .testemonial-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .test {
+        margin-left: 200px;
+    }
+
+    footer {
+        height: 30vh;
+        background-color: black;
+        color: white;
+    }
+
+    .seventh {
+        height: 72vh;
+    }
+ }
