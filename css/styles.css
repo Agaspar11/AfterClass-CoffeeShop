@@ -56,7 +56,7 @@ main {
     font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 16px;
-    margin-bottom: -0.5rem;
+    margin-bottom: -0.1rem;
 }
 
 .after{
@@ -68,23 +68,28 @@ main {
 }
 
 span {
-    color: #EFEA6B;
+    color: #f5a637;
 }
 
 .classmate {
     color: white;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
 
 .reserve {
-	border:1px solid #EFEA6B;
+	border:1px solid #f5a637;
 	display:inline-block;
 	color:#ffffff;
     font-family: 'Bebas Neue', sans-serif;
-	font-size:16px;
-	padding:16px 31px;
-	text-decoration:none;
+	font-size: 12px;
+	padding:20px 25px;
+    cursor: pointer;
+}
+
+.reserve:hover {
+    color: #f5a637;
 }
 
 /* Second page */
@@ -107,6 +112,11 @@ span {
   
   .image-text {
     flex: 1;
+    margin-right: 12%;
+  }
+
+  .image-text h2 {
+    font-family: 'Playfair Display', serif;
   }
 
 .take {
@@ -137,11 +147,16 @@ span {
 
 .image-text2 {
     flex: 1;
+    margin-left: 12%;
   }
+
+  .image-text2 h2 {
+    font-family: 'Playfair Display', serif;
+  }  
 /* Third page */
 
 .third {
-    height: 130vh;
+    height: 110vh;
 }
 
 .menu {
@@ -172,8 +187,8 @@ span {
   }
   
   img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   
   .image-container {
@@ -192,31 +207,30 @@ span {
     margin-left: 20px;
   }
   
- .text-container h1 {
+ .text-container h2 {
     font-family: 'Playfair Display', serif;
     margin: 0;
   }
   
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
-
+  
 /* Fifth page */
 
 .fifth {
     height: 100vh;
 }
 
-.make {
-    text-align: center;
+.make h1{
+    font-weight: 600;
+    font-size: 40px;
     font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
 }
 
-.fifth1 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
-    position: relative;
-    display: block;
+.make p {
+    text-align: center;
 }
 
 .formsec {
@@ -243,11 +257,85 @@ button{
     height: 80vh;
 }
 
-.client {
+.client h1 {
     text-align: center;
 }
 
+.testemonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
+.testemonial {
+    margin-top: 5%;
+    display: inline-block;
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 1);
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.profile_image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+ 
+.profile_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile {
+   display: flex;
+   align-items: center; 
+}
+
+.name_user {
+    display: flex;
+    flex-direction: column;
+}
+
+.name_user strong {
+    color:rgb(30, 30, 30);
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.name_user span {
+    color:rgb(30, 30, 30);
+    font-size: 0.8rem;
+}
+
+.reviews {
+    color:#f5a637
+}
+
+.box {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comment p{
+    font-size: 0.9rem;
+    color:rgb(30, 30, 30);
+}
+
+.testemonial:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
 /* Seventh page */
 
 .seventh {
@@ -269,3 +357,4 @@ button{
  .credits {
     margin-left: 16%;
  }
+
