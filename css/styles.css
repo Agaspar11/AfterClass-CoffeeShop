@@ -59,7 +59,7 @@ main {
 }
 
 .cafe {
-    padding-top: 30%;
+    padding-top: 15%;
     font-family: 'Bebas Neue', sans-serif;
     color: white;
     font-size: 16px;
@@ -279,16 +279,17 @@ button{
 /* Seventh page */
 
 .seventh {
-    height: 75vh;
+    height: 87vh;
 }
 
 /* Footer */
  footer {
+    height: 50vh;
     background-color: black;
     color: rgb(238, 238, 238);
     height: auto;
 }
-
+/* 
 .text-warning {
     padding: 5%;
 }
@@ -305,10 +306,10 @@ button{
     .image-text2 {
         margin-left: 50px;
     }
-}
+} */
 
 
-@media only screen and (max-width: 854px) {
+/* @media only screen and (max-width: 854px) {
     nav, .nav-links-1, .nav-links-2, .nav-links-3, .nav-links2-1, .nav-links2-2, .nav-links2-3  {
         display: none;
     }
@@ -333,11 +334,11 @@ button{
     .seventh {
         height: 75vh;
     }
-}
-
+} */
+/* 
 @media only screen and (max-width: 1430px){
 
     .fifth {
         margin-top: 170px;
     }
-}
+} */
