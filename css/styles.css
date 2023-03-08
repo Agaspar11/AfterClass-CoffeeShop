@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600&display=swap');
 
 .header {
+    width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(21, 21, 21, 0.48), rgba(26, 26, 26, 0.48)), url('https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center;
 }
 
-nav {
+.header a {
+    text-decoration: none;
+}
+
+.header nav {
     background-color: rgba(0,0,0,0.692);
     font-family: 'Bebas Neue', sans-serif;
     position: fixed;
@@ -110,6 +115,9 @@ span {
     margin: 2%;
     width: 300px;
     height: 450px;
+    box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
   }
   
   .image-text {
@@ -131,6 +139,10 @@ span {
     margin: 2%;
     width: 300px;
     height: 450px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
 }
 
 .image-text-container2 {
@@ -163,7 +175,7 @@ span {
 
 .menu {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .menuop {
@@ -231,6 +243,10 @@ span {
     text-align: center;
 }
 
+.make {
+    padding-top: 60px;
+}
+
 .make p {
     text-align: center;
 }
@@ -259,99 +275,17 @@ button{
     height: 80vh;
 }
 
-.client h1 {
-    font-weight: 600;
-    font-size: 30px;
-    font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
-}
 
-.testemonial-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.testemonial {
-    margin-top: 5%;
-    display: inline-block;
-    width: 500px;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 1);
-    background-color: rgb(235, 235, 235);
-    padding: 20px;
-    margin-left: auto;
-    cursor: pointer;
-}
-
-.profile_image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 10px;
-}
- 
-.profile_image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.profile {
-   display: flex;
-   align-items: center; 
-}
-
-.name_user {
-    display: flex;
-    flex-direction: column;
-}
-
-.name_user strong {
-    color:rgb(30, 30, 30);
-    font-size: 1.1rem;
-    letter-spacing: 0.5px;
-}
-
-.name_user span {
-    color:rgb(30, 30, 30);
-    font-size: 0.8rem;
-}
-
-.reviews {
-    color:#f5a637
-}
-
-.box {
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.comment p{
-    font-size: 0.9rem;
-    color:rgb(30, 30, 30);
-}
-
-.testemonial:hover {
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
-}
 /* Seventh page */
 
 .seventh {
-    height: 85vh;
+    height: 75vh;
 }
 
 /* Footer */
  footer {
-    height: 30vh;
     background-color: black;
-    color: white;
+    color: rgb(238, 238, 238);
     height: auto;
 }
 
@@ -363,153 +297,47 @@ button{
     margin-left: 16%;
  }
 
- /* @media (min-width: 600px) {
+@media only screen and (max-width: 575px) {
+    .take {
+        margin-left: 10px;
+    }
 
-    .make {
-        margin-top: 50%;
+    .image-text2 {
+        margin-left: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 854px) {
+    nav, .nav-links-1, .nav-links-2, .nav-links-3, .nav-links2-1, .nav-links2-2, .nav-links2-3  {
+        display: none;
     }
     
-    input, button  {
-        width: 490px;
-       } 
-
-    .second {
-        height: 135vh;
+    #burger_btn {
+        font-size: 30px;
+        padding: 20px;
+        float: right;
+        display: block;
+        cursor: pointer;
+        color: rgb(238, 238, 238);;
     }
-
-       .fifth {
-        height: 70vh;
-       }
-
-    .sixth {
-        height: 130vh;
-    }
-
-    .seventh {
-        height: 65vh;
-    }
-
-    .testemonial {
-        margin-left: 8%;
-    }
- } */
-
-/* @media (min-width: 768px) {
-
-    .cafe {
-        padding-top: 40%;
-    }
-
-    .nav-links {
-        padding-left: 0px;
-    }
-
-    .nav-links2 {
-        padding-left: 0px;
-    }
-
-    .make {
-        margin-top: 90px;
-    }
-
-    .second {
-        height: 100vh;
-    }
-
-    .third {
-        height: 120vh;
-    }
-
-    .make {
-        margin-top: 20px;
-    }
-
-    .fifth {
-        height: 70vh;
-    } 
-
-    .sixth {
-        height: 130vh;
-    }
-
-    .testemonial {
-        margin-left: 135px;
-    }
-
-    .seventh {
-        height: 65vh;
-    }
- }  */
-/* 
- @media (max-width: 992px) {
-
-    .cafe {
-        padding-top: 40%;
-    }
-
-   .make {
-    margin-top: 100px;
-    }
-
-    .second {
-        height: 100vh;
-    }
-
-    .fifth {
-        height: 60vh;
+    
+    .make h1{
+        padding-top: 30%;
     }
 
     .sixth {
-        height: 130vh;
-        margin-top: 75px;
-    }
-
-    .testemonial {
-        margin-left: 250px;
+        height: 145vh;
     }
 
     .seventh {
-        height: 65vh;
-    }
- } */
-
- @media (max-width: 1536px) { 
-
-    .cafe {
-        padding-top: 18%;
-    }
-
-    .third {
         height: 75vh;
     }
+}
+
+@media only screen and (max-width: 1430px){
 
     .fifth {
-        height: 70vh;
+        margin-top: 170px;
     }
-
-    .sixth {
-        height: 60vh;
-    }
-    
-    .testemonial-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .test {
-        margin-left: 200px;
-    }
-
-    footer {
-        height: 30vh;
-        background-color: black;
-        color: white;
-    }
-
-    .seventh {
-        height: 72vh;
-    }
- }
+}
