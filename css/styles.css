@@ -289,7 +289,7 @@ button{
     color: rgb(238, 238, 238);
     height: auto;
 }
-/* 
+
 .text-warning {
     padding: 5%;
 }
@@ -298,7 +298,7 @@ button{
     margin-left: 16%;
  }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575px) { 
     .take {
         margin-left: 10px;
     }
@@ -306,21 +306,25 @@ button{
     .image-text2 {
         margin-left: 50px;
     }
-} */
+}
 
 
-/* @media only screen and (max-width: 854px) {
+ @media only screen and (max-width: 854px) {
     nav, .nav-links-1, .nav-links-2, .nav-links-3, .nav-links2-1, .nav-links2-2, .nav-links2-3  {
         display: none;
     }
     
     #burger_btn {
         font-size: 30px;
-        padding: 20px;
+        padding: 10px;
+        margin: 5px;
+        position: fixed;
         float: right;
         display: block;
         cursor: pointer;
-        color: rgb(238, 238, 238);;
+        color: rgb(238, 238, 238);
+        background-color: rgba(0,0,0,0.692);
+        border-radius: 10px;
     }
     
     .make h1{
@@ -334,11 +338,11 @@ button{
     .seventh {
         height: 75vh;
     }
-} */
-/* 
+} 
+
 @media only screen and (max-width: 1430px){
 
     .fifth {
         margin-top: 170px;
     }
-} */
+} 
