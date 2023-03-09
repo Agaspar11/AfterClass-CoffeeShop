@@ -101,7 +101,7 @@ span {
 
 /* Second page */
 
-.second {
+/* .second {
     height: 135vh;
 }
 
@@ -142,7 +142,6 @@ span {
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
 }
 
 .image-text-container2 {
@@ -169,7 +168,7 @@ span {
   }  
 /* Third page */
 
-.third {
+/* .third {
     height: 110vh;
 }
 
@@ -228,11 +227,11 @@ span {
   
   p {
     font-size: 16px;
-  }
+  } */ 
   
 /* Fifth page */
 
-.fifth {
+/* .fifth {
     height: 100vh;
 }
 
@@ -267,23 +266,23 @@ input, button  {
 
 button{
     border-radius: 20px;
-}
+} */
 
 /* Sixt page */
 
-.sixth {
+/* .sixth {
     height: 80vh;
-}
+} */
 
 
 /* Seventh page */
 
-.seventh {
+/* .seventh {
     height: 87vh;
-}
+} */
 
 /* Footer */
- footer {
+/* footer {
     height: 50vh;
     background-color: black;
     color: rgb(238, 238, 238);
@@ -298,18 +297,17 @@ button{
     margin-left: 16%;
  }
 
-@media only screen and (max-width: 575px) { 
+/* @media only screen and (max-width: 575px) { 
+    .header {
+        width: 100%;
+    }
     .take {
-        margin-left: 10px;
+        display: none;
     }
-
-    .image-text2 {
-        margin-left: 50px;
-    }
-}
+} */
 
 
- @media only screen and (max-width: 854px) {
+ /* @media only screen and (max-width: 854px) {
     nav, .nav-links-1, .nav-links-2, .nav-links-3, .nav-links2-1, .nav-links2-2, .nav-links2-3  {
         display: none;
     }
@@ -338,11 +336,11 @@ button{
     .seventh {
         height: 75vh;
     }
-} 
+}  */
 
-@media only screen and (max-width: 1430px){
+/* @media only screen and (max-width: 1430px){
 
     .fifth {
         margin-top: 170px;
     }
-} 
+}  */
