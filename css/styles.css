@@ -294,7 +294,11 @@ footer {
     .take {
         display: none;
     }
-    
+
+    .relax {
+        display: none;
+    }
+
     .image-text, .image-text2{
         display: none;
     }
@@ -321,6 +325,10 @@ footer {
 
     .seventh {
         height: 85vh;
+    }
+
+    .formsec {
+        width: 360px;
     }
  }
 
