@@ -289,7 +289,7 @@ footer {
     margin-left: 16%;
  }
 
- @media only screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
 
     .take {
         display: none;
@@ -331,6 +331,20 @@ footer {
         width: 360px;
     }
  }
+
+ @media only screen and (max-width: 360px) {
+    .third {
+        height: 320vh;
+    }
+
+    .fifth {
+        height: 120vh;
+    }
+
+    .seventh {
+        height: 100vh;
+    }
+}
 
 /* @media only screen and (max-width: 575px) { 
 
