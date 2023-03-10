@@ -157,10 +157,10 @@ span {
   .image-text2 h2 {
     font-family: 'Playfair Display', serif;
   } 
-  
+
 /* Third page */
 
-/* .third {
+.third {
     height: 110vh;
 }
 
@@ -219,11 +219,11 @@ span {
   
   p {
     font-size: 16px;
-  } */ 
+  }
   
 /* Fifth page */
 
-/* .fifth {
+.fifth {
     height: 100vh;
 }
 
@@ -258,23 +258,23 @@ input, button  {
 
 button{
     border-radius: 20px;
-} */
+}
 
 /* Sixt page */
 
-/* .sixth {
+.sixth {
     height: 80vh;
-} */
+}
 
 
 /* Seventh page */
 
-/* .seventh {
+.seventh {
     height: 87vh;
-} */
+}
 
 /* Footer */
-/* footer {
+footer {
     height: 50vh;
     background-color: black;
     color: rgb(238, 238, 238);
@@ -287,9 +287,44 @@ button{
 
  .credits {
     margin-left: 16%;
- } */
+ }
 
-@media only screen and (max-width: 575px) { 
+ @media only screen and (max-width: 360px) {
+
+    .take {
+        display: none;
+    }
+    
+    .image-text, .image-text2{
+        display: none;
+    }
+
+    .img2 {
+        margin-top: 10%;
+    }
+
+    .image-text-container2 {
+        width: 320px;
+    }
+
+    main {
+        margin-top: 40%;
+    }
+
+    .third {
+        height: 230vh;
+    }
+
+    input, button  {
+        width: 350px;
+       } 
+
+    .seventh {
+        height: 85vh;
+    }
+ }
+
+/* @media only screen and (max-width: 575px) { 
 
     #burger_btn {
         display: block;
@@ -311,7 +346,11 @@ button{
     .image-text2 {
         margin-left: 2px;
     }
-}
+
+    .formsec {
+        width: 360px;
+    }
+} */
 
 @media only screen and (max-width: 695px) {
     .header nav {
