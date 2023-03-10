@@ -370,12 +370,12 @@ footer {
 
  @media screen and (max-width: 360px) {
     .header {
-        width: 441px;
+        width: 500px;
     }
 
     .third {
         height: 180vh;
-        width: 441px;
+        width: 500px;
     }
 
     .second {
@@ -387,7 +387,7 @@ footer {
     }
 
     input, button {
-        width: 431.2px;    
+        width: 500px;    
     }
 
     nav {
@@ -409,15 +409,15 @@ footer {
 
     .fifth {
         height: 90vh;
-        width: 441px;
+        width: 500px;
     }
 
     .seventh {
-        width: 441px;
+        width: 500px;
     }
 
     footer {
-        width: 441px;
+        width: 500px;
     }
  }
 
