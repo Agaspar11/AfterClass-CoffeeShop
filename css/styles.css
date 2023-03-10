@@ -370,16 +370,28 @@ footer {
 
  @media screen and (max-width: 360px) {
     .header {
-        width: 500px;
+        width: 505px;
     }
 
     .third {
         height: 180vh;
-        width: 500px;
+        width: 505px;
     }
 
     .second {
+        width: 505px;
+    }
+
+    .take {
         display: none;
+    }
+
+    .relax {
+        display: none;
+    }
+
+    .image-text-container2 {
+        width: 550px;
     }
 
     .formsec, button {
@@ -409,15 +421,15 @@ footer {
 
     .fifth {
         height: 90vh;
-        width: 500px;
+        width: 505px;
     }
 
     .seventh {
-        width: 500px;
+        width: 505px;
     }
 
     footer {
-        width: 500px;
+        width: 505px;
     }
  }
 
