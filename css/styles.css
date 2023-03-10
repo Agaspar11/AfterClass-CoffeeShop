@@ -283,21 +283,7 @@ footer {
     margin-left: 16%;
  }
 
- /* @media screen and (max-width: 1400px) {
-    .third {
-        height: 100vh;
-    }
-
-    .fifth {
-        height: 80vh;
-    }
-
-    .seventh {
-        height: 75vh;
-    }
- }
-
- @media screen and (max-width: 720px) {
+ /* @media screen and (max-width: 720px) {
     nav {
         display: none;
     }
@@ -321,56 +307,17 @@ footer {
     .third {
         height: 140vh;
     }
- }
-
- @media screen and (max-width: 580px) {
-    .take {
-        display: none;
-    }
-
-    .relax {
-        display: none;
-    }
-
-    .image-text2 {
-        margin-left: 2px;
-    }
-
-    .second {
-        display: none;
-    } 
- }
-
- @media screen and (max-width: 520px) {
-    .formsec {
-        float: left;
-        width: 300px;
-    }
- }
-
- @media only screen and (max-width: 474px) {
-    .header {
-        width: 100%;
-    }
-
-    .third {
-        height: 150vh;
-    }
-
-    input, button {
-        width: 430px;
-    }
- }
-
- @media screen and (min-width: 426px) {
-    .third {
-        height: 160vh;
-    }
  } */
 
- @media screen and (max-width: 360px) {
+
+
+@media screen and (max-width: 360px) {
     .header {
         width: 505px;
+    }
+
+    .cafe {
+        padding-top: 25%;
     }
 
     .third {
@@ -433,158 +380,4 @@ footer {
     }
  }
 
- /* @media only screen and (max-width: 854px) { 
-    .nav-links1{
-        display: none;
-    }
-    
-    #burger_btn {
-        display: flex;
-        font-size: 30px;
-        padding: 10px;
-        margin: 5px;
-        position: fixed;
-        float: right;
-        display: block;
-        cursor: pointer;
-        color: rgb(238, 238, 238);
-        background-color: rgba(0,0,0,0.692);
-        border-radius: 10px;
-    }
-    
-    .make h1{
-        padding-top: 30%;
-    }
-
-    .sixth {
-        height: 145vh;
-    }
-
-    .seventh {
-        height: 75vh;
-    }
-}
-
-
- @media only screen and (max-width: 706px) {
-
-    .header nav {
-        display: none;
-    }
-}
-
- @media only screen and (max-width: 575px) { 
-
-    #burger_btn {
-        display: block;
-        
-    }
-
-    .header nav{
-        display: none;
-    }
-
-    .take {
-        display: none;
-    }
-
-    .relax {
-        display: none;
-    }
-
-    .image-text2 {
-        margin-left: 2px;
-    }
-
-    .formsec {
-        width: 360px;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-
-    .take {
-        display: none;
-    }
-
-     .relax {
-        display: none;
-    } 
-
-    .image-text, .image-text2{
-        display: none;
-    }
-
-    .img2 {
-        margin-top: 10%;
-    }
-
-    .image-text-container2 {
-        width: 320px;
-    }
-
-    main {
-        margin-top: 40%;
-    }
-
-    .third {
-        height: 230vh;
-    }
-
-    input, button  {
-        width: 350px;
-       } 
-
-    .seventh {
-        height: 85vh;
-    }
-
-    .formsec {
-        width: 360px;
-    }
- }
-
-@media only screen and (max-width: 320px) {
-    .third {
-        height: 320vh;
-    }
-
-    .fifth {
-        height: 120vh;
-    }
-
-    .seventh {
-        height: 100vh;
-    }
-}
-
-@media only screen and (max-width: 854px) { 
-    .nav-links1{
-        display: none;
-    }
-    
-    #burger_btn {
-        font-size: 30px;
-        padding: 10px;
-        margin: 5px;
-        position: fixed;
-        float: right;
-        display: block;
-        cursor: pointer;
-        color: rgb(238, 238, 238);
-        background-color: rgba(0,0,0,0.692);
-        border-radius: 10px;
-    }
-    
-    .make h1{
-        padding-top: 30%;
-    }
-
-    .sixth {
-        height: 145vh;
-    }
-
-    .seventh {
-        height: 75vh;
-    }
-} */
+ 
