@@ -49,7 +49,7 @@
 
 main {
     text-align: center;
-    margin-top: 15%;
+    padding-top: 15%;
 }
 
 main h6 {
@@ -146,7 +146,7 @@ span {
 .relax {
     font-size: 20px;
     margin-top: 26rem;
-    margin-right: 20px;
+    margin-right: 36px;
 }
 
 .image-text2 {
@@ -235,6 +235,7 @@ span {
 }
 
 .make {
+    text-align: center;
     padding-top: 60px;
 }
 
@@ -260,13 +261,6 @@ button{
     border-radius: 20px;
 }
 
-/* Sixt page */
-
-.sixth {
-    height: 80vh;
-}
-
-
 /* Seventh page */
 
 .seventh {
@@ -289,7 +283,141 @@ footer {
     margin-left: 16%;
  }
 
-@media only screen and (max-width: 360px) {
+ @media only screen and (max-width: 1271px) {
+    .third {
+        height: 130vh;
+    }
+
+    .fifth {
+        height: 80vh;
+    }
+
+    .seventh {
+        height: 75vh;
+    }
+ }
+
+ @media only screen and (max-width: 700px) {
+    nav {
+        display: none;
+    }
+
+    main {
+        padding-top: 30%;
+    }
+
+    #burger-btn {
+        margin: 5px;
+        font-size: 30px;
+        padding: 10px;
+        position: fixed;
+        display: flex;
+        cursor: pointer;
+        color: rgb(238, 238, 238);
+        background-color: rgba(0,0,0,0.692);
+        border-radius: 10px;
+    }
+
+    .third {
+        height: 140vh;
+    }
+ }
+
+ @media only screen and (max-width: 580px) {
+    .take {
+        display: none;
+    }
+
+    .relax {
+        display: none;
+    }
+
+    .image-text2 {
+        margin-left: 2px;
+    }
+
+    .second {
+        display: none;
+    } 
+ }
+
+ @media only screen and (max-width: 520px) {
+    .formsec {
+        float: left;
+        width: 300px;
+    }
+ }
+
+ @media only screen and (max-width: 474px) {
+    .header {
+        width: 100%;
+    }
+
+    .third {
+        height: 150vh;
+    }
+
+    input, button {
+        width: 430px;
+    }
+ }
+
+ @media only screen and (min-width: 426px) {
+    .third {
+        height: 160vh;
+    }
+ }
+
+ /* @media only screen and (max-width: 854px) { 
+    .nav-links1{
+        display: none;
+    }
+    
+    #burger_btn {
+        display: flex;
+        font-size: 30px;
+        padding: 10px;
+        margin: 5px;
+        position: fixed;
+        float: right;
+        display: block;
+        cursor: pointer;
+        color: rgb(238, 238, 238);
+        background-color: rgba(0,0,0,0.692);
+        border-radius: 10px;
+    }
+    
+    .make h1{
+        padding-top: 30%;
+    }
+
+    .sixth {
+        height: 145vh;
+    }
+
+    .seventh {
+        height: 75vh;
+    }
+}
+
+
+ @media only screen and (max-width: 706px) {
+
+    .header nav {
+        display: none;
+    }
+}
+
+ @media only screen and (max-width: 575px) { 
+
+    #burger_btn {
+        display: block;
+        
+    }
+
+    .header nav{
+        display: none;
+    }
 
     .take {
         display: none;
@@ -298,6 +426,25 @@ footer {
     .relax {
         display: none;
     }
+
+    .image-text2 {
+        margin-left: 2px;
+    }
+
+    .formsec {
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .take {
+        display: none;
+    }
+
+     .relax {
+        display: none;
+    } 
 
     .image-text, .image-text2{
         display: none;
@@ -332,7 +479,7 @@ footer {
     }
  }
 
- @media only screen and (max-width: 360px) {
+@media only screen and (max-width: 320px) {
     .third {
         height: 320vh;
     }
@@ -346,41 +493,7 @@ footer {
     }
 }
 
-/* @media only screen and (max-width: 575px) { 
-
-    #burger_btn {
-        display: block;
-        
-    }
-
-    .header nav{
-        display: none;
-    }
-
-    .take {
-        display: none;
-    }
-
-    .relax {
-        display: none;
-    }
-
-    .image-text2 {
-        margin-left: 2px;
-    }
-
-    .formsec {
-        width: 360px;
-    }
-} */
-
-@media only screen and (max-width: 695px) {
-    .header nav {
-        display: none;
-    }
-}
-
-/* @media only screen and (max-width: 854px) { 
+@media only screen and (max-width: 854px) { 
     .nav-links1{
         display: none;
     }
@@ -409,11 +522,4 @@ footer {
     .seventh {
         height: 75vh;
     }
-}
-
-/* @media only screen and (max-width: 1430px){
-
-    .fifth {
-        margin-top: 170px;
-    }
-}  */
+} */
