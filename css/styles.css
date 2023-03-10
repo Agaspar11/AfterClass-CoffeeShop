@@ -8,10 +8,6 @@
     background-position: center;
 }
 
-.header a {
-    text-decoration: none;
-}
-
 .header nav {
     background-color: rgba(0,0,0,0.692);
     font-family: 'Bebas Neue', sans-serif;
@@ -21,49 +17,43 @@
     padding: 15px;
 }
 
-.nav-color {
+.nav-links1 a{
+    list-style-type: none;
     color: rgb(255, 255, 255);
 }
 
-.nav-links {
+.nav-links1 {
+    text-align: center;
     margin: 0;
-    list-style-type: none;
+    padding: 0;
 }
 
-.nav-links2 {
-    margin: 0;
-    list-style-type: none;
-}
-
-.nav-links-1, .nav-links-2, .nav-links-3 {
-    font-size: 16px;
-    margin-left: 6%;
-}
-
-.nav-links2-1, .nav-links2-2, .nav-links2-3 {
-    font-size: 16px;
-    margin-right: 6%;
+.nav-links1 a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-size: 14px;
 }
 
 
-.nav-links li {
-    float: left;
+.nav-links1 li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 15px;
 }
 
-.nav-links2 li {
-    float: right;
+.nav-links1 a:hover {
+    color: #f5a637;
 }
 
 main {
     text-align: center;
+    margin-top: 15%;
 }
 
-.cafe {
-    padding-top: 15%;
-    font-family: 'Bebas Neue', sans-serif;
+main h6 {
     color: white;
-    font-size: 16px;
-    margin-bottom: -0.1rem;
 }
 
 .after{
@@ -96,12 +86,13 @@ span {
 }
 
 .reserve:hover {
+    text-decoration: none;
     color: #f5a637;
 }
 
 /* Second page */
 
-/* .second {
+.second {
     height: 135vh;
 }
 
@@ -111,23 +102,23 @@ span {
     margin-bottom: 20px;
   }
   
-  .img1 {
+.img1 {
     margin: 2%;
     width: 300px;
     height: 450px;
     box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
-  }
+}
   
-  .image-text {
+.image-text {
     flex: 1;
     margin-right: 12%;
-  }
+}
 
-  .image-text h2 {
+.image-text h2 {
     font-family: 'Playfair Display', serif;
-  }
+}
 
 .take {
     font-size: 20px;
@@ -155,7 +146,7 @@ span {
 .relax {
     font-size: 20px;
     margin-top: 26rem;
-    margin-right: 36px;
+    margin-right: 20px;
 }
 
 .image-text2 {
@@ -165,7 +156,8 @@ span {
 
   .image-text2 h2 {
     font-family: 'Playfair Display', serif;
-  }  
+  } 
+  
 /* Third page */
 
 /* .third {
@@ -295,20 +287,40 @@ button{
 
  .credits {
     margin-left: 16%;
- }
+ } */
 
-/* @media only screen and (max-width: 575px) { 
-    .header {
-        width: 100%;
+@media only screen and (max-width: 575px) { 
+
+    #burger_btn {
+        display: block;
+        
     }
+
+    .header nav{
+        display: none;
+    }
+
     .take {
         display: none;
     }
-} */
 
+    .relax {
+        display: none;
+    }
 
- /* @media only screen and (max-width: 854px) {
-    nav, .nav-links-1, .nav-links-2, .nav-links-3, .nav-links2-1, .nav-links2-2, .nav-links2-3  {
+    .image-text2 {
+        margin-left: 2px;
+    }
+}
+
+@media only screen and (max-width: 695px) {
+    .header nav {
+        display: none;
+    }
+}
+
+/* @media only screen and (max-width: 854px) { 
+    .nav-links1{
         display: none;
     }
     
@@ -336,7 +348,7 @@ button{
     .seventh {
         height: 75vh;
     }
-}  */
+}
 
 /* @media only screen and (max-width: 1430px){
 
