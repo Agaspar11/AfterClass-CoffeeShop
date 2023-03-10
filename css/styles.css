@@ -283,7 +283,7 @@ footer {
     margin-left: 16%;
  }
 
- @media only screen and (max-width: 1271px) {
+ /* @media screen and (max-width: 1400px) {
     .third {
         height: 100vh;
     }
@@ -297,7 +297,7 @@ footer {
     }
  }
 
- @media only screen and (max-width: 720px) {
+ @media screen and (max-width: 720px) {
     nav {
         display: none;
     }
@@ -323,7 +323,7 @@ footer {
     }
  }
 
- @media only screen and (max-width: 580px) {
+ @media screen and (max-width: 580px) {
     .take {
         display: none;
     }
@@ -341,7 +341,7 @@ footer {
     } 
  }
 
- @media only screen and (max-width: 520px) {
+ @media screen and (max-width: 520px) {
     .formsec {
         float: left;
         width: 300px;
@@ -362,9 +362,62 @@ footer {
     }
  }
 
- @media only screen and (min-width: 426px) {
+ @media screen and (min-width: 426px) {
     .third {
         height: 160vh;
+    }
+ } */
+
+ @media screen and (max-width: 360px) {
+    .header {
+        width: 441px;
+    }
+
+    .third {
+        height: 180vh;
+        width: 441px;
+    }
+
+    .second {
+        display: none;
+    }
+
+    .formsec, button {
+        float: left;
+    }
+
+    input, button {
+        width: 431.2px;    
+    }
+
+    nav {
+        display: none;
+    }
+
+
+    #burger-btn {
+        margin: 5px;
+        font-size: 30px;
+        padding: 10px;
+        position: fixed;
+        display: flex;
+        cursor: pointer;
+        color: rgb(238, 238, 238);
+        background-color: rgba(0,0,0,0.692);
+        border-radius: 10px;
+    }
+
+    .fifth {
+        height: 90vh;
+        width: 441px;
+    }
+
+    .seventh {
+        width: 441px;
+    }
+
+    footer {
+        width: 441px;
     }
  }
 
