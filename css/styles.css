@@ -34,6 +34,7 @@
     display: block;
     padding: 5px;
     font-size: 12px;
+    font-weight: 600;
 }
 
 
@@ -44,6 +45,7 @@
 }
 
 .nav-links1 a:hover {
+    cursor: none;
     color: #f5a637;
 }
 
@@ -87,6 +89,14 @@ span {
 
 .reserve:hover {
     text-decoration: none;
+    color: #f5a637;
+}
+
+.cafe:hover {
+    color: #f5a637;
+}
+
+.after:hover {
     color: #f5a637;
 }
 
