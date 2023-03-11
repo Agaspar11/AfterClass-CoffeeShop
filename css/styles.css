@@ -14,7 +14,7 @@
     position: fixed;
     top: 0; 
     width: 100%;
-    padding: 15px;
+    padding: 5px;
 }
 
 .nav-links1 a{
@@ -283,6 +283,17 @@ footer {
     margin-left: 16%;
  }
 
+@media screen and (max-width: 1200px) {
+
+    .second {
+        height: 150vh;
+    }
+
+    .third {
+        height: 200vh;
+    }
+}
+
 @media screen and (max-width: 695px) {
     nav {
         display: none;
@@ -300,12 +311,16 @@ footer {
         border-radius: 10px;
     }
 
+    .second {
+        height: 180vh;
+    }
+
     .third {
-        height: 140vh;
+        height: 190vh;
     }
 
     .fifth {
-        height: 80vh;
+        height: 120vh;
     }
 
     .seventh {
@@ -324,6 +339,18 @@ footer {
 
     .relax {
         display: none;
+    }
+
+    .second {
+        height: 160vh;
+    }
+
+    .third {
+        height: 200vh;
+    }
+
+    .fifth {
+        height: 120vh;
     }
 }
 
