@@ -49,6 +49,10 @@ header nav {
     color: #f5a637;
 }
 
+#burger-btn {
+    display: none;
+}
+
 main {
     text-align: center;
     padding-top: 15%;
@@ -88,6 +92,7 @@ span {
 }
 
 .reserve:hover {
+    text-decoration: none;
     text-decoration: pointer;
     color: #f5a637;
 }
@@ -223,7 +228,7 @@ span {
   }
 
   .image-container:hover {
-    border: 8px solid rgba(0, 0, 0, 1);
+    border: 10px solid #f5a637;
    border-radius: 20px;
   }
   
