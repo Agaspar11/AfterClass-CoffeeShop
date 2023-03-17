@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600&display=swap');
 
-/******************************* Landing Page *******************************/
 header {
     width: 100%;
     height: 100vh;
@@ -103,7 +102,8 @@ span {
     color: #f5a637;
 }
 
-/******************************* Second page *******************************/
+/* Second page */
+
 .second {
     height: 135vh;
 }
@@ -166,30 +166,16 @@ span {
 .image-text2 {
     flex: 1;
     margin-left: 12%;
-}
+  }
 
-.image-text2 h2 {
+  .image-text2 h2 {
     font-family: 'Playfair Display', serif;
-} 
+  } 
 
-@media screen and (max-width: 590px) {
-    .take {
-        display: none;
-    }
-
-    .relax {
-        display: none;
-    }    
-
-    .image-text2 {
-        margin-left: 0;
-      }
-}
-
-/******************************* Third page *******************************/
+/* Third page */
 
 .third {
-    height: 160vh;
+    height: 100vh;
 }
 
 .menu {
@@ -207,170 +193,66 @@ span {
     text-align: left;
   }
   
-.row {
+  .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 5px;
-}
+  }
   
-.column {
+  .column {
     cursor: pointer;
-    max-width: 600px;
+    max-width: 550px;
     margin: 5px;
-}
+  }
   
-img {
-    width: 200px;
+  img {
+    width: 150px;
     height: 150px;
-}
+  }
   
-.image-container {
+  .image-container {
     padding: 8px;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    transition: border 100ms ease-out, border-radius 100ms ease-out;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-}
+    transition: border 200ms ease-out, border-radius 200ms ease-out;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+  }
 
-.image-container img {
+  .image-container img {
     border-radius: 20px;
-}
+  }
 
-.image-container:hover {
-    border: 2px solid #f5a637;
+  .image-container:hover {
+    border: 10px solid #f5a637;
    border-radius: 20px;
-}
+  }
   
-.text-container {
+  .text-container {
     margin-left: 20px;
-}
+  }
   
-.text-container h2 {
+ .text-container h2 {
     font-family: 'Playfair Display', serif;
     margin: 0;
-}
+  }
   
-p {
+  p {
     font-size: 16px;
-}
-
-button:focus,
-input:focus,
-textarea:focus,
-select:focus {
-outline: none;
-}
-
-.tab-2 label {
-    font-family: 'Bebas Neue', sans-serif;
-}
+  }
   
-.tabs {
-    display: block;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: 0;
-    overflow: hidden; 
-}
+/* Fifth page */
 
-.tabs [class^="tab"] label,
-.tabs [class*=" tab"] label {
-      color: #000000;
-      cursor: pointer;
-      display: block;
-      font-size: 1.1em;
-      font-weight: 600;
-      line-height: 1em;
-      padding: 2rem 0;
-      text-align: center; 
-}
-
-.tabs [class^="tab"] [type="radio"],
-.tabs [class*=" tab"] [type="radio"] {
-      border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-      cursor: pointer;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      display: block;
-      width: 100%;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      -o-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out; 
-}
-
-.tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
-.tabs [class*=" tab"] [type="radio"]:hover,
-.tabs [class*=" tab"] [type="radio"]:focus {
-    border-bottom: 1px solid #f5a637; 
-}
-
-.tabs [class^="tab"] [type="radio"]:checked,
-.tabs [class*=" tab"] [type="radio"]:checked {
-    border-bottom: 2px solid #f5a637; 
-}
-
-.tabs [class^="tab"] [type="radio"]:checked + div,
-.tabs [class*=" tab"] [type="radio"]:checked + div {
-    opacity: 1; 
-}
-
-.tabs [class^="tab"] [type="radio"] + div,
-.tabs [class*=" tab"] [type="radio"] + div {
-    display: block;
-    opacity: 0;
-    padding: 2rem 0;
-    width:100%;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out; 
-}
-
-.tabs .tab-2 {
-    width: 50%; 
-}
-
-.tabs .tab-2 [type="radio"] + div {
-    width: 200%;
-    margin-left: 200%;
-}
-
-.tabs .tab-2 [type="radio"]:checked + div {
-    margin-left: 0; 
-}
-
-.tabs .tab-2:last-child [type="radio"] + div {
-    margin-left: 100%; 
-}
-
-.tabs .tab-2:last-child [type="radio"]:checked + div {
-    margin-left: -100%; 
-}
-
-/******************************* Fourth page *******************************/
-#fourth {
+.fifth {
     height: 100vh;
     padding-top: 60px;
     display: grid;
     justify-content: center;
     align-items: center;
-}
-
-.borderf {
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .make h1{
@@ -389,39 +271,35 @@ outline: none;
 }
 
 .formsec {
-    font-family: 'Playfair Display', sans-serif;
-    margin: 0 auto;
-    width: 100%;
+    font-family: 'Playfair Display', serif;
+    margin:0 auto;
+    width: 500px;
 }
 
 input, button  {
     font-size: 14px;
     padding: 1rem 1rem;
-    width: 100%;
+    width: 500px;
     margin: 5px;
     display: block;
    } 
 
-/******************************* Fifth page *******************************/
-.fifth {
-    height: 80vh;
+button{
+    border-radius: 20px;
 }
 
-/******************************* Footer page *******************************/
+/* Seventh page */
+
+.seventh {
+    height: 86vh;
+}
+
+/* Footer */
 footer {
-    height: fit-content;
+    height: 50vh;
     background-color: black;
     color: rgb(238, 238, 238);
-    padding: 20px;
-}
-
-footer .row {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
-
-.list-unstyled li {
-    padding: 3px;
+    height: auto;
 }
 
 .text-warning {
@@ -429,39 +307,26 @@ footer .row {
 }
 
  .credits {
-    display: flex;
-    margin-left: 220px;
+    margin-left: 16%;
  }
 
+@media screen and (max-width: 1200px) {
 
-/* This part below is for media queries */
-
-/* For phone view */
-@media screen and (max-width: 600px) {
-    footer .row {
-        grid-template-columns: repeat(1,1fr);
+    .second {
+        height: 150vh;
     }
-}
 
-
-/* For browsers View */
-@media screen and (max-width: 1230px) {
     .third {
-        height: 290vh;
-    }
-
-    footer {
-        padding: 30px;
+        height: 200vh;
     }
 }
 
-@media screen and (max-width: 715px) {
-    .third {
-        height: 300vh;
-    }
-}
+@media screen and (max-width: 695px) {
 
-@media screen and (max-width: 638px) {
+    body {
+        width: 100%;
+    }
+
     nav {
         display: none;
     }
@@ -473,30 +338,109 @@ footer .row {
         margin: 5px;
         font-size: 20px;
         padding: 10px;
-        color: rgb(255, 255, 255);
+        color: rgb(238, 238, 238);
         background-color: rgba(0,0,0,0.692);
         border-radius: 10px;
+    }
+
+    .second {
+        height: 180vh;
+    }
+
+    .third {
+        height: 190vh;
+    }
+
+    .fifth {
+        height: 120vh;
+    }
+
+    .seventh {
+        height: 87vh;
     }
 }
 
 @media screen and (max-width: 565px) {
-    .third {
-        height: 310vh;
-    }
-}
-
-@media screen and (max-width: 518px) {
-    .third {
-        height: 320vh;
-    }
-
     body {
-        width: 518px;
+        width: 100%;
+    }
+
+    .take {
+        display: none;
+    }
+
+    .relax {
+        display: none;
+    }
+
+    .second {
+        height: 160vh;
+    }
+
+    .third {
+        height: 200vh;
+    }
+
+    .fifth {
+        height: 120vh;
     }
 }
 
-@media screen and (max-width: 130px) {
-    body {
-        width: 130px;
+@media screen and (max-width: 360px) { 
+    header {
+        width: 505px;
     }
-}
+
+    #burger-btn {
+        display: block;
+        position: fixed;
+        cursor: pointer;
+        margin: 5px;
+        font-size: 20px;
+        padding: 10px;
+        color: rgb(238, 238, 238);
+        background-color: rgba(0,0,0,0.692);
+        border-radius: 10px;
+    }
+
+    .cafe {
+        padding-top: 25%;
+    }
+
+    .third {
+        height: 180vh;
+        width: 505px;
+    }
+
+    .second {
+        height: 140vh;
+        width: 505px;
+    }
+
+    .image-text-container2 {
+        width: 550px;
+    }
+
+    .formsec, button {
+        float: left;
+    }
+
+    input, button {
+        width: 500px;    
+    }
+
+    .fifth {
+        height: 90vh;
+        width: 505px;
+    }
+
+    .seventh {
+        width: 505px;
+    }
+
+    footer {
+        width: 505px;
+    }
+ }
+
+ 
