@@ -436,18 +436,12 @@ footer .row {
 
 /* This part below is for media queries */
 
-/* For phone view */
-@media screen and (max-width: 600px) {
-    footer .row {
-        grid-template-columns: repeat(1,1fr);
-    }
-}
-
 
 /* For browsers View */
-@media screen and (max-width: 1230px) {
+
+@media screen and (max-width: 1245px) {
     .third {
-        height: 290vh;
+        height: 300vh;
     }
 
     footer {
@@ -461,7 +455,7 @@ footer .row {
     }
 }
 
-@media screen and (max-width: 638px) {
+@media screen and (max-width: 670px) {
     nav {
         display: none;
     }
@@ -479,24 +473,35 @@ footer .row {
     }
 }
 
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 649px) {
     .third {
         height: 310vh;
     }
 }
 
-@media screen and (max-width: 518px) {
+/* For phone */
+@media screen and (max-width: 600px) {
+    footer .row {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .third {
+        height: 310vh;
+    }
+
+     .fourth {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 531px) {
     .third {
         height: 320vh;
     }
 
     body {
         width: 518px;
-    }
-}
-
-@media screen and (max-width: 130px) {
-    body {
-        width: 130px;
     }
 }
