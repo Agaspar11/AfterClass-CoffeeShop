@@ -511,3 +511,13 @@ footer .row {
         width: 518px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .fifth {
+        height: fit-content;
+    }
+
+    .third {
+        height: 290vh;
+    }
+}
