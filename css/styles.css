@@ -512,12 +512,20 @@ footer .row {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
+    header {
+        height: 143vh;
+    }
+
+    main {
+        padding-top: 70%;
+    }
+
     .fifth {
         height: fit-content;
     }
 
     .third {
-        height: 290vh;
+        height: fit-content;
     }
 }
