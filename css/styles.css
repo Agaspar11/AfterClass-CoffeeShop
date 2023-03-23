@@ -52,10 +52,6 @@ header nav {
     color: #f5a637;
 }
 
-/* #burger-btn {
-    display: none;
-} */
-
 main {
     text-align: center;
     padding: 15%;
@@ -467,21 +463,6 @@ footer .row {
     main {
         padding-top: 30%;
     }
-
-    /* #burger-btn {
-        display: block;
-        position: fixed;
-        cursor: pointer;
-        width: 100%;
-        font-size: 20px;
-        padding: 10px;
-        color: rgb(255, 255, 255);
-        background-color: rgba(0,0,0,0.692);
-    }
-
-    #burger-btn:hover {
-        color: #f5a637;
-    } */
 }
 
 @media screen and (max-width: 649px) {
