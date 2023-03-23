@@ -7,6 +7,8 @@ header {
     background-image: linear-gradient(rgba(21, 21, 21, 0.48), rgba(26, 26, 26, 0.48)), url('https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 header nav {
@@ -15,7 +17,7 @@ header nav {
     position: fixed;
     top: 0; 
     width: 100%;
-    padding: 5px;
+    padding: 10px;
 }
 
 .nav-links1 a{
@@ -50,9 +52,9 @@ header nav {
     color: #f5a637;
 }
 
-#burger-btn {
+/* #burger-btn {
     display: none;
-}
+} */
 
 main {
     text-align: center;
@@ -387,6 +389,7 @@ input  {
     width: 100%;
     margin-bottom: 5px;
     display: block;
+    border: solid 1px;
    } 
 
 button {
@@ -395,6 +398,7 @@ button {
     font-size: 12px;
     background: none;
     cursor: pointer;
+    border: solid 1px;
 }
 
 button:hover {
@@ -410,7 +414,7 @@ button:hover {
 footer {
     height: fit-content;
     background-color: black;
-    color: rgb(238, 238, 238);
+    color: #8C8C8C;
     padding: 20px;
 }
 
@@ -452,14 +456,19 @@ footer .row {
     .third {
         height: 300vh;
     }
+
+    .nav-links1 li {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 670px) {
-    nav {
-        display: none;
+
+    main {
+        padding-top: 30%;
     }
 
-    #burger-btn {
+    /* #burger-btn {
         display: block;
         position: fixed;
         cursor: pointer;
@@ -472,7 +481,7 @@ footer .row {
 
     #burger-btn:hover {
         color: #f5a637;
-    }
+    } */
 }
 
 @media screen and (max-width: 649px) {
