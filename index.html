@@ -296,12 +296,12 @@
             <p>Set your Reservation here to reserve a seat for you <br> and for the person that you want to be with on this cafe/restaurant
             </p>
         <form class="formsec">
-            <input class="text-dark" type="text" id="name" name="name" placeholder="Full name" required>
-            <input class="text-dark" type="tel" id="number" name="number" placeholder="Phone number" required>
-            <input class="text-dark" type="email" id="email" name="email" placeholder="Email" required>
-            <input class="text-dark" type="number" id="person" name="person" min="1" max="8" required placeholder="Number of person">
-            <input class="text-dark" type="date" id="date" name="date">
-            <input class="text-dark" type="time" id="time" name="time"  min="24:00" max="24:00" required>
+            <input type="text" id="name" name="name" placeholder="Full name" required>
+            <input type="tel" id="number" name="number" placeholder="Phone number" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="number" id="person" name="person" min="1" max="8" placeholder="Number of person" required>
+            <input type="date" id="date" name="date">
+            <input type="time" id="time" name="time"  min="24:00" max="24:00">
             <button type="submit" class="reserve-btn">Reserve</button>
         </form>
         </div>
@@ -310,9 +310,11 @@
     <!--******************************************* End of Fourth Page *******************************************-->
     <!--******************************************* Fifth Page *******************************************-->
     <section class="fifth">
-    <div>
-      <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=SM%20City%20General%20Santos,%20mall,%20General%20Santos,%20Philippines+(My%20Business%20Name)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html"></a></iframe></div>
-    </div>
+      <div style="width: 100%">
+        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=SM%20City%20General%20Santos,%20mall,%20General%20Santos,%20Philippines+(My%20Business%20Name)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" title="Google maps">
+          <a href="https://www.maps.ie/distance-area-calculator.html"></a>
+        </iframe>
+      </div>
     </section>
     <!--******************************************* End of Fifth Page *******************************************-->
     <!--******************************************* Footer Page *******************************************-->
@@ -320,8 +322,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-9">
-            <h4 id="about" class="text-warning">About Us</h4>
-            <p>We have been dedicated to sourcing the finest coffee beans from around the world and roasting them to perfection in small batches. We believe that coffee is more than just a beverage - it's a way of life.</p>
+            <h4 class="text-warning">About Us</h4>
+            <p id="about">We have been dedicated to sourcing the finest coffee beans from around the world and roasting them to perfection in small batches. We believe that coffee is more than just a beverage - it's a way of life.</p>
           </div>
           <div class="col-md-9">
             <h4 id="contact" class="text-warning">Contact Info</h4>
